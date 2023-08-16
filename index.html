@@ -4,30 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>Rock Paper Scissors</title>
 </head>
 <body>
     <div class="container">
+        
         <h1>Rock Paper Scissors</h1>
-        <h2>First to reach 5 Wins!</h2>
+        <h2>The race to 5 wins begins!</h2>
+
         <div class="options">
             <button class="rock btn">Rock</button>
             <button class="paper btn">Paper</button>
             <button class="scissor btn">Scissors</button>
         </div>
+
         <div class="choices">
             <div>
-                <h1 class="user choice">You chose Rock</h1>
-                <img src="images/rock.png" alt="">
+                <h1 class="user-choice">Your Choice :</h1>
+                <img class="user-img" src="">
             </div>
             <div>
-                <h1 class="comp choice">Computer chose Paper</h1>
-                <img src="images/scissor.png" alt="">
+                <h1 class="comp-choice">Computer Choice :</h1>
+                <img class="comp-img" src="">
             </div>
         </div>
+
         <div class="winner">
-            <h1 class="result">Computer Wins!</h1>
+            <div class="scores">
+                <h2 class="user-score">0</h2>
+                <h2>:</h2>
+                <h2 class="comp-score">0</h2>
+            </div>
+            <h1 class="result">Who will win ?</h1>
         </div>
+
+        <div class="reset hidden">
+            <h2 class="win"></h2>
+            <button class="reset-game btn">⟳ Play Again</button>
+        </div>
+        <div class="overlay hidden"></div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
