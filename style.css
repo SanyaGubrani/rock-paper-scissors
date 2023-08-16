@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container h1{
+    font-family: 'indie flower', 'sans-serif';
+    font-size: 6.2vh;
+    padding: 1.5rem 2rem;
+    white-space: nowrap;
+}
+
+.container h2{
+   font-family: cursive;
+   font-weight: 200;
+}
+
+.options{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    font-family: cursive;
+    padding: 0.7rem 1rem;
+    font-size: 1.2rem;
+    width: 8rem;
+    margin: 10px;
+    border-radius: 30px;
+    outline: 0;
+    border: 0;
+    background-color: rgba(203, 201, 201, 0.916);
+    text-align: center;
+}
+
+.btn:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition: 0.2s ease;
+}
+
+.choices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    flex-wrap: wrap;
+
+}
+
+.choices h1{
+    font-size: 4vh;
+}
+
+.choices div{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.winner h1{
+    padding: 1rem;
+    font-size: 6vh;
+}
