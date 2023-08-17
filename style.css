@@ -170,6 +170,7 @@ font-size: 4vh;
     .btn{
         padding: 0.5rem;
         font-size: 1.2rem;
+        width: 10rem;
     }
 
     .choices h1{
