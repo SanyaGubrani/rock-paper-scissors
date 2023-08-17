@@ -8,6 +8,7 @@
 
 body{
     background-color: rgb(232, 232, 233);
+    font-family: 'indie flower', 'sans-serif';
 }
 
 .container{
@@ -19,7 +20,6 @@ body{
 }
 
 .container h1{
-    font-family: 'indie flower', 'sans-serif';
     font-size: 6.5vh;
     padding: 1.5rem 2rem;
     white-space: nowrap;
@@ -27,7 +27,7 @@ body{
 }
 
 .container h2{
-   font-family: 'indie flower', 'sans-serif';
+font-size: 4vh;
    font-weight: 200;
 }
 
@@ -85,7 +85,7 @@ body{
 }
 
 .winner .scores h2{
-    font-size: 2rem;
+    font-size: 3.5rem;
     padding: 10px 15px;
 }
 
@@ -152,7 +152,6 @@ body{
 
 @media(max-width:767px){
     .container h1{
-        font-family: 'indie flower', 'sans-serif';
         font-size: 2rem;
         padding: 1rem;
         white-space: nowrap;
