@@ -86,9 +86,9 @@ const closeModal = function(){
 function showResultModal() {
     openModal();
     if(userScore > compScore){
-        gameWinner.textContent = `Congratulations! You've Won this round!`;
+        gameWinner.textContent = `Congratulations ! You've Won this round !`;
     } else{
-        gameWinner.textContent = `Game Over! Computer has Won this round!`;
+        gameWinner.textContent = `Game Over ! Computer has Won this round !`;
     }
 }
 
