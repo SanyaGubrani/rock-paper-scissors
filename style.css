@@ -40,15 +40,17 @@ font-size: 4vh;
 }
 
 .btn{
-    font-family: cursive;
-    padding: 0.7rem 1rem;
-    font-size: 1.3rem;
+    font-family: 'indie flower', 'sans-serif';
+    padding: 0.5rem 1rem;
+    font-size: 1.7rem;
+    letter-spacing: 0.1rem;
     width: 10rem;
     margin: 10px;
     border-radius: 30px;
+    font-weight: 600;
     outline: 0;
     border: 0;
-    background-color: rgba(192, 190, 190, 0.916);
+    background-color: rgba(204, 201, 201, 0.916);
     text-align: center;
 }
 
@@ -119,7 +121,7 @@ font-size: 4vh;
     border: 2.5px solid rgba(157, 156, 156, 0.897);
     border-radius: 30px;
     padding: 1.5rem;
-    background-color: rgba(207, 206, 206, 0.668);
+    background-color: rgba(213, 212, 212, 0.668);
     z-index: 10;
 }
 
@@ -130,7 +132,7 @@ font-size: 4vh;
 }
 
 .reset-game{
-    width: 11rem;
+    width: 15rem;
 }
 
 .overlay {
